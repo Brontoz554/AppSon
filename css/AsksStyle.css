@@ -1,0 +1,31 @@
+main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card.w-100 {
+    border: none !important;
+}
+
+.fix
+{
+    padding: 1.25rem;
+
+}
+
+.bottomHeader
+{
+    background: #f5fcfd;
+}
+
+.list-group-item
+{
+    cursor: pointer;
+}
+
+.list-group-item:hover
+{
+    background: #0f7bff;
+    color: #ffffff;
+    transition: .3s;
+}

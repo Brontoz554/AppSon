@@ -1,0 +1,91 @@
+main {
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+
+.fix {
+    padding: 1.25rem;
+}
+
+
+.bottomHeader {
+    background: #f5fcfd;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background: #0f7bff;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.card {
+    border: none !important;
+    box-shadow: 0 0 12px #c7c7c7;
+}
+
+.card h5, .card p.color {
+    cursor: pointer;
+}
+
+.card h5:hover, .card p.color {
+    color: #0f7bff;
+    transition: .3s;
+}
+
+
+.searchText {
+    position: absolute;
+    width: 100% !important;
+    border-radius: 50px !important;
+
+}
+
+.search {
+    width: 20% !important;
+    right: 0;
+    z-index: 100;
+    position: absolute;
+    height: calc(1.5em + 1.5rem + 2px) !important;
+    cursor: pointer;
+}
+
+.fixSearch {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+
+.col-lg-4.ml-auto.mr-auto h4, .col-lg-4.ml-auto.mr-auto h6 {
+    color: #333333;
+}
+
+.d-flex.mb-4.container h6 {
+    cursor: pointer;
+}
+
+.d-flex.mb-4.container h6:hover {
+    color: #0f7bff;
+}
+
+.pFix {
+    margin-left: 30px;
+    width: calc(100% - 30px);
+}
+
+.h4Fix {
+    margin-left: 15px !important;
+}
+
+.but button {
+    font-size: 14px !important;
+}
+
+.black {
+    color: #333333 !important;
+}
+

@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f5fcfd !important;
+
+}
+
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    height: 100%;
+    color: #feffff !important;
+    background: #0f7bff;
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.px-5 {
+    padding-top: 0 !important;
+    z-index: 10 !important;
+}
+
+nav ul {
+    margin-top: 12px !important;
+    font-weight: 500;
+}
+
+header {
+    position: relative;
+}
+
+.headerImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1 !important;
+}
+
+.sign-up {
+    background: #0063dd !important;
+    border-color: #0063dd !important;
+}
+
+p {
+    color: #929292 !important;
+}
+
+header > section > button {
+    z-index: 100 !important;
+}
+
+.phones {
+    z-index: 200 !important;
+}
+
+.phones img:nth-of-type(1) {
+    transform: translate(35%, 0);
+    z-index: 5;
+}
+
+.phones img:nth-of-type(2) {
+    transform: translate(-1.9%, 0);
+    z-index: 6;
+}
+
+.phones img:nth-of-type(3) {
+    transform: translate(-37%, 0);
+    z-index: 5;
+}
+
+.arrowBottom {
+    position: absolute;
+    z-index: 6;
+    transform: translateY(40px);
+}
+
+.upper {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.carF {
+    transform: translateY(50px);
+}
+
+.message, .pricing, .news {
+    background: #ffffff;
+}
+
+.pricing, .news {
+    padding: 150px 0;
+}
+
+.first {
+    position: absolute;
+    z-index: 10;
+    transform: translate(-50px, -25px);
+}
+
+.second {
+    position: absolute;
+    z-index: 10;
+    transform: translate(10px, 0);
+}
+
+img[alt="image"] {
+    position: absolute;
+    z-index: 100;
+}
+
+img[alt="image"]:nth-of-type(2) {
+    position: absolute;
+    z-index: 100;
+    transform: translate(175px, 25px);
+
+}
+
+.h500 {
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HDIW {
+    background-color: #f5fcfd;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.print {
+    background: none !important;
+}
+
+.casual {
+    position: absolute;
+    width: 5%;
+    margin-left: 25%;
+    transform: translateY(-53px);
+    z-index: 90;
+}
+
+.textFix {
+    z-index: 100000;
+}
+
+.line {
+    position: absolute;
+}
+
+.circle:nth-of-type(1) {
+    transform: translateX(3.5px);
+    width: 40% !important;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.circle:nth-of-type(2) {
+    transform: translateX(-3.5px);
+    width: 40% !important;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.trusted > img {
+    width: 35%;
+}
+
+.pagination {
+    width: 10%;
+}
+
+.free-trial {
+    background: #f5fcfd;
+}
+
+.free-trial > .container:nth-of-type(1) {
+    padding: 100px 0;
+}
+
+.app-son {
+    background: #0f7bff;
+    color: #ffffff;
+    padding: 100px;
+    border-bottom: 1px solid white;
+}
+
+.subscribe {
+    background: white;
+    border: white 1px solid;
+    color: #0f7bff;
+    font-weight: 600;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px 15px 15px 15px;
+    transform: translateX(-2.5px);
+    outline: none;
+}
+
+.email {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid white;
+    background: #0f7bff;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 0 15px 15px;
+    width: 30%;
+    outline: none;
+    margin-right: 0 !important;
+    transform: translateX(2.5px);
+}
+
+.email::placeholder {
+    color: white;
+}
+
+footer {
+    background: #0f7bff;
+    color: white !important;
+}
+
+footer p {
+    color: white !important;
+}
+
+.row-item {
+    position: absolute;
+    right: 10px;
+    background: url("../assets/img/bg2.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
